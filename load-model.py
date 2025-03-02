@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
-model = AutoModelForSeq2SeqLM.from_pretrained("./my_model")
-tokenizer = AutoTokenizer.from_pretrained("./my_model")
+model = AutoModelForSeq2SeqLM.from_pretrained("./my_model/model")
+tokenizer = AutoTokenizer.from_pretrained("./my_model/tokenizer")
 
 # Chuẩn bị dữ liệu đầu vào
 input_text = "translate English to French: The house is wonderful."

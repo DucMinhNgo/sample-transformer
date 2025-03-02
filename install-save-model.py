@@ -13,8 +13,8 @@ inputs = tokenizer(input_text, return_tensors="pt")
 outputs = model.generate(inputs["input_ids"], max_length=50)
 output_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-model.save_pretrained("./my_model")
-tokenizer.save_pretrained("./my_model")
+model.save_pretrained("./my_model/model")
+tokenizer.save_pretrained("./my_model/tokenizer")
 
 print("Input:", input_text)
 print("Output:", output_text)
