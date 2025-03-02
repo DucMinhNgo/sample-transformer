@@ -1,2 +1,6 @@
 /sample-transformer
 /my_model
+__pycache__/gdrive_func.cpython-312.pyc
+credentials.json
+/dustin_model
+token.pickle
